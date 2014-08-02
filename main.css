@@ -1,0 +1,8 @@
+p {
+    margin: 2px 0;
+}
+input ~ p, select ~ p {
+    display:inline-block;
+    margin:0;
+    color:red;
+}

@@ -6,3 +6,6 @@ input ~ p, select ~ p {
     margin:0;
     color:red;
 }
+input.hasError::-webkit-input-placeholder {
+   color: red;
+}
